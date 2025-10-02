@@ -14,4 +14,17 @@ public class MeanValue {
         // Calculate and return the average
         return sum / storageSpaces.length;
     }
+   
+    // Separate method to calculate total space used
+    static int totalSpace(int[] storageSpaces) {
+    	int sum = 0;
+    	int i;
+    	
+    	// Loop through the array and store the sum in the sum variable
+    	for (i = 0; i < storageSpaces.length; i++) {
+    		sum += storageSpaces[i];
+    	}
+    	
+    	return sum;
+    }
 }

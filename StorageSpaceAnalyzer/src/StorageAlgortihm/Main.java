@@ -7,12 +7,14 @@ public class Main {
     // Main method
     public static void main(String[] args) {
         int max = MaxValue.maxValue(storageSpaces);
-        System.out.println("The largest Storage Space is: " + max);
-        printArray(storageSpaces);
-
         float avg = MeanValue.meanValue(storageSpaces);
-        System.out.println("The Average Storage Space is: " + avg);
+        int sum = MeanValue.totalSpace(storageSpaces);
         printArray(storageSpaces);
+        System.out.println("The largest Storage Space is: " + max);
+        System.out.println("The Average Storage Space is: " + avg);
+        System.out.println("There are " +storageSpaces.length+ " files in this array.");
+        System.out.println("The total storage is: " + sum);
+        
     }
 
     // Separate method to print arrays
