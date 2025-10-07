@@ -1,4 +1,4 @@
-package StorageAlgortihm;
+package StorageAlgorithm;
 
 public class MaxValue {
     // Method to find the maximum in an array
@@ -17,3 +17,4 @@ public class MaxValue {
         return max;
     }
 }
+
