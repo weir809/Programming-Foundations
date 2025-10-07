@@ -1,4 +1,4 @@
-package StorageAlgortihm;
+package StorageAlgorithm;
 
 
 public class MeanValue {
@@ -27,4 +27,5 @@ public class MeanValue {
     	
     	return sum;
     }
+
 }
