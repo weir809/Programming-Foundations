@@ -1,4 +1,4 @@
-package StorageAlgortihm;
+package StorageAlgorithm;
 
 public class Main {
     // Array declared
@@ -25,5 +25,6 @@ public class Main {
         System.out.println();
     }
 }
+
 
 
